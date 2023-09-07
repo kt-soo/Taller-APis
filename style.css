@@ -1,0 +1,19 @@
+#mapa {
+    /* Centrar horizontalmente */
+    margin: 0 auto;
+    /* Usar flexbox para centrar verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-color: #b0c0b1; 
+}
+h1 {
+    color: rgb(15, 2, 2); /* Cambia el color del texto según tu preferencia */
+    font-size: 36px; /* Cambia el tamaño de fuente según tu preferencia */
+    font-family: "Arial", sans-serif; /* Cambia la fuente según tu preferencia */
+    text-align: center; /* Centra el título horizontalmente */
+    padding: 20px; /* Agrega espacio alrededor del título para que se destaque */
+}
